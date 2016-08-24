@@ -1,0 +1,383 @@
+/* Scss Document */
+html, body, ul, li, h1, h2, h3, h4, h5, h6, a, p, button {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.nav {
+  height: 147px;
+}
+.nav ul {
+  float: right;
+  margin: 64px 20.75% 0 0;
+}
+.nav ul li {
+  font-size: 18px;
+  font-family: Roboto Slab;
+  color: #31353e;
+  line-height: 1.333;
+  text-align: center;
+  display: inline;
+  text-decoration: none;
+  padding: 0;
+  margin: 0 0 0 41px;
+}
+.nav ul li a {
+  font-size: 18px;
+  font-family: Roboto Slab;
+  color: #31353e;
+  line-height: 1.333;
+  text-align: center;
+  text-decoration: none;
+}
+
+#logo {
+  font-size: 36px;
+  font-family: Roboto Slab;
+  color: #31353e;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0 0 0 415px;
+  padding-top: 44px;
+  float: left;
+  position: absolute;
+}
+
+#logo2 {
+  font-size: 16px;
+  font-family: Roboto Slab;
+  color: #dd4b2b;
+  margin: 80px 0 0 417px;
+  float: left;
+  letter-spacing: 1px;
+  position: absolute;
+}
+
+#active {
+  background-color: #dd4b2b;
+  padding: 12.5px 23.5px;
+  border-radius: 40px;
+  margin: 0 0 0 18px;
+}
+
+#color_active {
+  color: #edeff1;
+  font-weight: 100;
+}
+
+#activ2 {
+  margin: 0 0 0 17px;
+}
+
+/* Scss Document */
+.header {
+  height: 1321px;
+  background-image: url(../images/background.jpg);
+  background-position: center;
+  text-align: center;
+}
+.header h1 {
+  font-size: 72px;
+  font-family: Open Sans;
+  font-weight: 100;
+  color: #fff;
+  line-height: 0.667;
+  text-align: center;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+  padding-top: 490px;
+}
+.header h4 {
+  font-size: 30px;
+  font-family: Roboto Slab;
+  color: #fff;
+  line-height: 0.667;
+  text-align: center;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+  padding-top: 30px;
+}
+.header .header_content {
+  width: 1170px;
+  height: 400px;
+  margin: 129px auto 0;
+}
+.header .header_content .Tincidunt, .header .header_content .Duis_bibendum {
+  height: auto;
+  width: 370px;
+  float: left;
+  text-align: center;
+  margin: 0 30px 0 0;
+}
+.header .header_content .Tincidunt .img, .header .header_content .Duis_bibendum .img {
+  width: 134px;
+  height: 134px;
+  margin: auto;
+  border: 7px solid #fff;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.header .header_content .Tincidunt h3, .header .header_content .Duis_bibendum h3 {
+  font-size: 30px;
+  font-family: "Roboto Slab";
+  color: #fff;
+  font-weight: bold;
+  line-height: 0.8;
+  margin-top: 30px;
+}
+.header .header_content .Tincidunt h5, .header .header_content .Duis_bibendum h5 {
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: 100;
+  color: white;
+  line-height: 2;
+  max-width: 314px;
+  height: 74px;
+  margin: 18px auto;
+}
+.header .header_content .Donec_ligula {
+  height: auto;
+  width: 370px;
+  float: left;
+  text-align: center;
+  margin: 0;
+}
+.header .header_content .Donec_ligula .img {
+  width: 134px;
+  height: 134px;
+  margin: auto;
+  border: 7px solid #fff;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.header .header_content .Donec_ligula h3 {
+  font-size: 30px;
+  font-family: "Roboto Slab";
+  color: #fff;
+  font-weight: bold;
+  line-height: 0.8;
+  margin-top: 30px;
+}
+.header .header_content .Donec_ligula h5 {
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: 100;
+  color: white;
+  line-height: 2;
+  max-width: 336px;
+  height: 74px;
+  margin: 18px auto;
+}
+.header button {
+  font-size: 18px;
+  font-family: "Roboto Slab";
+  color: #612316;
+  background-color: #fff;
+  text-align: center;
+  padding: 15px 60px;
+  border-radius: 40px;
+  border: none;
+  margin-top: 12px;
+  margin-bottom: 80px;
+  cursor: pointer;
+  outline: none;
+  transition: all .3s;
+}
+.header button:hover {
+  background-color: #edeff1;
+}
+
+.home {
+  height: auto;
+  max-width: 2000px;
+  background-color: #edeff1;
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  margin: auto;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 40px;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+.overlay a {
+  padding: 6px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 13px;
+  right: 21px;
+  font-size: 56px;
+}
+
+#open {
+  font-size: 30px;
+  position: absolute;
+  right: 0;
+  color: #31353e;
+  margin: 30px 29px;
+  cursor: pointer;
+  display: none;
+  transition: all 0.3s;
+}
+
+#open:hover {
+  color: #dd4b2b;
+}
+
+/* Scss Document */
+@media only screen and (max-width: 2000px) {
+  #logo {
+    margin-left: 20.75%;
+  }
+
+  #logo2 {
+    margin-left: 20.85%;
+  }
+
+  .home .nav ul {
+    margin: 64px 20.75% 0 0;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  #logo, #logo2 {
+    margin-left: 10%;
+  }
+
+  #logo2 {
+    padding-left: 2px;
+  }
+
+  .home .nav ul {
+    margin: 64px 10% 0 0;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .header .header_content {
+    width: 96%;
+  }
+  .header .header_content .Tincidunt, .header .header_content .Duis_bibendum {
+    width: 31.6%;
+    margin: 0 2.56% 0 0;
+  }
+  .header .header_content .Donec_ligula {
+    width: 31.6%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  #open {
+    display: block;
+  }
+
+  .nav ul {
+    display: none;
+  }
+
+  .head ul {
+    margin-top: -30px;
+  }
+
+  .head ul li {
+    display: block;
+    margin: 40px 0 0 0px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .header {
+    height: auto;
+    background-position: center 100%;
+    background-size: cover;
+    text-align: center;
+  }
+  .header h1 {
+    font-size: 36px;
+    padding-top: 470px;
+  }
+  .header h4 {
+    font-size: 15px;
+  }
+  .header .header_content {
+    height: auto;
+  }
+  .header .header_content .Tincidunt, .header .header_content .Duis_bibendum {
+    height: auto;
+    width: 90%;
+    float: none;
+    margin: 80px auto;
+  }
+  .header .header_content .Tincidunt h5, .header .header_content .Duis_bibendum h5 {
+    max-width: none;
+  }
+  .header .header_content .Donec_ligula {
+    height: auto;
+    width: 90%;
+    float: none;
+    margin: 110px auto;
+  }
+  .header .header_content .Donec_ligula h5 {
+    max-width: none;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .header {
+    height: auto;
+    background-position: center 100%;
+    background-size: cover;
+    text-align: center;
+  }
+  .header h1 {
+    font-size: 20px;
+  }
+  .header h4 {
+    font-size: 11px;
+  }
+  .header .header_content {
+    height: auto;
+  }
+  .header .header_content .Tincidunt, .header .header_content .Duis_bibendum {
+    height: auto;
+    width: 90%;
+    float: none;
+    margin: 80px auto;
+  }
+  .header .header_content .Tincidunt h5, .header .header_content .Duis_bibendum h5 {
+    max-width: none;
+  }
+  .header .header_content .Donec_ligula {
+    height: auto;
+    width: 90%;
+    float: none;
+    margin: 110px auto;
+  }
+  .header .header_content .Donec_ligula h5 {
+    max-width: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
